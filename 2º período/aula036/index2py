@@ -1,0 +1,26 @@
+x = 2
+print("x + 2:"+str(x))
+
+# soma simplicada
+x+= 20
+print("x +=20: "+str(x))
+
+#subtração simplicada
+x-= 20
+print("x -=20: "+str(x))
+
+# multiplicacao simplicada
+x*= 20
+print("x *=20: "+str(x))
+
+# divisão simplicada
+x/= 20
+print("x /=20: "+str(x))
+
+# resto simplicado
+x%= 20
+print("x %=20: "+str(x))
+
+# divisão inteira
+x//= 20
+print("x +=20: "+str(x))

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="27.01-ex01.css">
+    <script src="27.01-ex01.js"></script>
+    <title>Atividade 1</title>
+</head>
+<body>
+    <header>
+        <form action="" method="post">
+            <p>Digite seu login:</p>
+            <input type="text" name="user_name" id="user_name" placeholder="O nome é obrigatório" required="required">
+            <p>Senha:</p>
+            <input type="password" name="senha" id="senha">
+            <input type="submit" value="login" onclick="logar()">
+         </form>
+    </header>
+    <section id="groceries_list">
+        <p>Bem vindo a sua lista de compras</p>
+        <img src="https://images.pexels.com/photos/95425/pexels-photo-95425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="foto-frutas">
+        <ul>
+            <li>
+                <input type="checkbox" name="banana" id="banana">
+                <label for="banana">Banana</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Maçã" id="maca">
+                <label for="maca">Maçã</label>
+            </li>
+            <ul>
+                <li>
+                    <input type="checkbox" name="maca_gala" id="maca_gala">
+                    <label for="maca_gala">Maçã Gala</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="maca_verde" id="maca_verde">
+                    <label for="maca_verde">Maçã Verde</label>
+                </li>
+            </ul>
+            <li>
+                <input type="checkbox" name="pera" id="pera">
+                <label for="pera">Pêra</label>
+            </li>
+            <li>
+                <input type="checkbox" name="laranja" id="laranja">
+                <label for="laranja">Laranja</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="laranja_pera" id="laranja_pera">
+                        <label for="laranja_pera">Laranja Pêra</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="laranja_lima" id="laranja_lima">
+                        <label for="laranja_lima">Laranja Lima</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

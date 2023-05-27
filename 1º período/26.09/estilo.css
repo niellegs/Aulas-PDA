@@ -1,0 +1,30 @@
+button {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+#botao {
+   /* background-color: aquamarine;
+    margin: 0px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px; */
+    background-color: brown;
+    padding: 200px 20px;
+    border-style: none;
+}
+
+#botao-border {
+    border-style: double;
+    border-width: 5px;
+    border-color: brown;
+}
+
+#botao-border:hover {
+    border: none;
+    width: 100px;
+    height: 100px;
+}

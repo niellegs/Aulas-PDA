@@ -1,0 +1,23 @@
+body {
+    background-color: #F8F4EA;
+}
+
+#question {
+    background-color: #E1D7C6;
+    color: #579BB1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    width: 50%;
+    border-radius: 2rem;
+    transform: translate(18rem, 5rem);
+}
+
+#inner-text {
+    width: 60%;
+    padding: 10px 10px 30px 190px;
+}
+
+#answer {
+    font-size: 1rem;
+    color: red;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #191825;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+#agente {
+    height: 5vh;
+    width: 30vh;
+    border-radius: 20px;
+    padding-left: 10px;
+    position: absolute;
+    margin: 0 auto;
+    border: 1px solid #865DFF;
+    font-family: monospace;
+    color: #865DFF;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}

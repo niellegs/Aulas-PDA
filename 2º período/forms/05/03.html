@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Média</title>
+    <link rel="stylesheet" href="03.css">
+    <script src="03.js" defer></script>
+</head>
+<body>
+    <div id="etapa-1">
+        <p> Olá, seja bem vindo ao nosso sistemas de notas, clique no botão abaixo para continuar.</p>
+        <button onclick="two()">Continuar</button>
+    </div>
+    <div id="etapa-2">
+        <h1>Mediador de notas</h1>
+        <p> Aqui está nosso guia:</p>
+        <ol>
+            <li> Calculamos a sua média de acordo com as suas últimas quatro notas;</li>
+            <li>Aprovado - Média 7 ou superior.</li>
+            <li> Recuperação - Média entre 6 e 3.</li>
+            <li>Reprovado - Média menor que três.</li>
+        </ol>
+        <button onclick="three()"> Compreendi e quero continuar</button>
+    </div>
+    <div id="etapa-3">
+        <p>Primeira nota: <input type="number" id="grade-1" value="0"></p>
+        <p>Segunda nota: <input type="number" name="" id="grade-2"></p>
+        <p>Terceira nota: <input type="number" name="" id="grade-3"></p>
+        <p>Quarta nota: <input type="number" name="" id="grade-4"></p>
+        <div>
+            <p id="results"></p>
+            <p id="message"></p>
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+    </div>
+</body>
+</html>

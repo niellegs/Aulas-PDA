@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Permite que usemos caracteres especiais que únicos do nosso idioma sem muitos problemas */
+/* ID = #, CLASS = .
+*/
+#top{
+    background-color: rgb(171, 212, 200);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+/* Aninhamento: Diversos seletores têm suas caracteristicas alteradas de uma vez, sendo separadas apenas pela vírgula. */
+
+.intro1, .intro2, .intro3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro1 {
+    font-weight: bold;
+}
+
+.intro3 {
+    color: rgb(159, 59, 59);
+}
+
+/* Aninhamento de tags: Você pode especificar propriedades para seletores dentro dos próprios seletores */
+
+#top h1 {
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#top .intro2 span {
+    color: blueviolet;
+}
+
+/* Pseudoclasses: Manifestam-se de acordo com uma determinada condição */
+
+#top .intro3 a:visited {
+    color: rgb(93, 0, 255);
+}

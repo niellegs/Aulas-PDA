@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {
+    margin: 0;
+}
+.menu {
+    background-color: rgb(115, 155, 189);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.menu li{
+    display: inline-block;
+    padding: 0 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px 60px;
+}
+.menu li:hover {
+    background-color: aliceblue;
+    color: rgb(115, 155, 189);
+    transform: scale(120%);
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p::first-letter {
+    font-size: 200%;
+    color: rgb(115, 155, 189);
+}
+p::first-line {
+    background-color: rgba(115, 155, 189, 0.16);
+}

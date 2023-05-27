@@ -1,0 +1,44 @@
+@charset "utf-8";
+.ex_borda{
+	padding: 15px;
+	margin: 20px;
+    margin-top: 50px;
+}
+#modelo1{
+	border: 5px solid #870A0A;
+	border-radius: 30px;
+	background: #932F31;
+	width: 300px;
+	height: 300px;
+}
+#modelo2{
+	border: 3px solid #035F19;
+	border-radius: 60px 30px;
+	width: 500px;
+	height: 200px;	
+}
+#modelo3{
+	background: #8CF3DB;
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
+#modelo4 {
+    background-color: #110357;
+    border: 8px solid #677cf4;
+    border-radius: 100px 10px 100px 10px;
+    height: 250px;
+    height: 250px;
+}
+#elipse {
+    background-color: #951388;
+    width: 100px;
+    height: 150px;
+    border-radius: 50px/100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 0;
+}
+#elipse h3 {
+    padding: 70px 0 0 3px;
+}

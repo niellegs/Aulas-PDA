@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>BANCO DE DEVS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BANCO DE DEVS</h1>
+        <hr>
+
+        <table>
+            <tr>
+                <td>
+                    <label for="nome">nome:</label>
+                  <input type="text" id="nome" placeholder="ex.: Valéria Silva">
+                </td>
+                <td>
+                    <label for="nivel">nivel:</label>
+                    <input type="text" id="nivel" placeholder="ex.: Sênior">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="idade">idade:</label>
+                    <input type="text" id="idade" placeholder="ex.: 27">
+                </td>
+                <td>
+                    <label for="formacao">formação:</label>
+                    <input type="text" id="formacao" placeholder="ex.: Técnico Completo">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="cidade">cidade:</label>
+                    <input type="text" id="cidade" placeholder="ex.: Mauá, SP">
+                </td>
+                <td>
+                    <label for="desenvolve">desenvolve em:</label>
+                    <input type="text" id="desenvolve" placeholder="ex.: JAVA">
+                </td>
+            </tr>
+
+        </table>
+
+        <button onclick="cadastrar()">CADASTRAR</button>
+    </div>
+
+    <div id="res"></div>
+</body>
+</html>

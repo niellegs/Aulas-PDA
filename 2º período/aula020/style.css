@@ -1,0 +1,13 @@
+.sombras {
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    background-color: #2222b7;
+    box-shadow: 15px 15px orange, 30px 30px green, 50px 50px 90px red;
+}
+
+#title {
+    padding: 30px;
+    color: hsla(50, 80%, 50%, 1);
+
+}

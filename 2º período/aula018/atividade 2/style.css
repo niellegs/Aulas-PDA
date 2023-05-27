@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+div img {
+    width: 500px;
+    height: auto;
+    border: 6px solid rgb(245, 129, 218);
+    border-radius: 20px;
+}
+
+p {
+    border: 2px solid blue;
+    
+}

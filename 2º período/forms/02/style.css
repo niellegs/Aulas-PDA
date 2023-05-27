@@ -1,0 +1,17 @@
+body {
+    background-color: #040034;
+    font-family: helvetica;
+    color: #7669ff;
+}
+h1{
+    text-align: center; /*Alinha o H1 no meio */
+}
+div {
+    width: 50%;  /*muda a largura da div */
+    font-size: 1.5em; /*muda o tamanho da fonte */
+    background-color: #D9D6FF; /*muda a cor da div */
+    padding: 50px; /*Adiciona espaço ao redor da div */
+    text-align: center; /*Alinha o texto no centro */
+    margin: 0 auto; /*Alinha a div no centro da página */
+    border-radius: 2em; /*Deixa as bordas arredondadas */
+}
